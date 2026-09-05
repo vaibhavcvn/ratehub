@@ -1,0 +1,7 @@
+import axios from 'axios';
+
+const api = axios.create({ baseURL: import.meta.env.VITE_API_URL ?? 'http://localhost:5000/api' });
+api.interceptors.request.use((config) => { const token = localStorage.getItem('ratehub_token'); if (token) config.headers.Authorization = `Bearer ${token}`; return config; });
+api.interceptors.response.use((response) => response, (error) => { if (error.response?.status === 401) localStorage.removeItem('ratehub_token'); return Promise.reject(error); });
+export const messageFrom = (error) => error.response?.data?.message ?? (error.request ? 'Cannot reach the TrustMark API. Make sure the backend is running on port 5000.' : 'Unable to complete this request');
+export default api;
