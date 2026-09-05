@@ -107,5 +107,5 @@ The frontend provides responsive discovery cards, store detail pages, review com
 ### Store Details
 ![Store Details](screenshots/store-details.png)
 
-### Dashboard
+### Create Account
 ![Dashboard](screenshots/dashboard.png)
