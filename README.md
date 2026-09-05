@@ -93,3 +93,19 @@ Change these credentials before using the project outside local development.
 - Admin and owner dashboards expose expanded analytics while retaining server-side role checks.
 
 The frontend provides responsive discovery cards, store detail pages, review comments, favorites, rating history, confirmation before deletion, and dashboard recommendations.
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Store Discovery
+![Store Discovery](screenshots/stores.png)
+
+### Store Details
+![Store Details](screenshots/store-details.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
