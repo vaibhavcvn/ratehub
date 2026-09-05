@@ -104,7 +104,7 @@ The frontend provides responsive discovery cards, store detail pages, review com
 ### Store Discovery
 ![Store Discovery](screenshots/stores.png)
 
-### Store Details
+### User login page
 ![Store Details](screenshots/store-details.png)
 
 ### Shopkeeper login page
